@@ -49,9 +49,6 @@ integer,intent(out)::N
 character(20),intent(out)::T(Nmax)
 real,intent(out)::R(Nmax)
 
-!print*,'Gia poses poleis zitounte dedomena?'
-!read*,Nmax
-
 open(1,file='data.txt')
 
 N=0
